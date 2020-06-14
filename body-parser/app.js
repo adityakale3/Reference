@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
-
+app.use(bodyParser.json());
 
 app.get('/', (req,res) => {
     res.send('Hey');
