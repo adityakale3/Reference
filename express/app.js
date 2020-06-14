@@ -6,8 +6,9 @@ app.get('/', (req,res) => {
 //    res.send('Plain Test');
 //    res.render('views/file/path');
 //    res.render('views/file/path', {data:can , be:send, like:this});
-//    res.status(200).send('All Applicable here');
+//    res.sendStatus(200)
 //    res.status(200).json();
+//    res.status(200).send( {'a': 'b'}  );
 //    res.sendFile('Plain Test');
 });
 
