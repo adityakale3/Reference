@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+</head>
+<body>
+    <center>
+        <%= message %>
+    </center>   
+    <% if(message) { %>
+        <p> <%= message %> </p>
+    <% } %>
+
+    <p>For HTML or direct printing Use </p>
+
+    <!-- 
+        <% 'Scriptlet' tag, for control-flow, no output
+        <%= Outputs the value into the template (HTML escaped)
+        <%- Outputs the unescaped value into the template 
+    -->
+
+</body>
+</html>
