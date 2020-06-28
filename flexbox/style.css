@@ -1,0 +1,32 @@
+.container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+    /* flex-direction: row;
+    flex-direction: column; 
+    justify-content: space-around; */
+div {
+    /* Makes Responsive with equal space */
+    flex:1
+}
+
+div :nth-child(3){
+    margin-left: auto;
+}    
+
+
+/* Vertical */
+/* Container */
+.container {
+    align-items: center;
+    height: 100px;
+}
+
+
+div :nth-child(1){
+    align-self: flex-start;
+}    
